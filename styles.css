@@ -1,0 +1,74 @@
+/* General Reset */
+* {
+   
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dad8d8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+.site-header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #103052;
+}
+
+/* Navigation */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid white;
+}
+
+.nav-menu a:hover {
+    background-color: rgb(241, 240, 239);
+    color: #4a90e2;
+}
+
+/* Sections */
+.intro {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px dashed #ccc;
+}
+
+/* Cards section */
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #4a90e2;
+    margin: 10px;
+    flex: 1;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-top: 3px solid #4a90e2;
+}
